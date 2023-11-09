@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.logout {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+.logout button {
+  padding: 10px;
+  background-color:rgb(15, 200, 15); 
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.table-elements {
+  max-height: 300px; 
+  overflow-y: auto; 
+  margin: 20px 0;
+}
+.table-elements table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+.table-elements th {
+  background-color:rgb(15, 200, 15) ;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+.table-elements td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table-elements tr:nth-child(even) {
+  background-color: white;
+}
+.table-elements input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.save-btn {
+  margin: 10px 0;
+}
+.save-btn button {
+  padding: 10px;
+  background-color: rgb(15, 200, 15);
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 90px;
+  margin-left: 300px;
+}
+.user-cookie {
+  margin: 20px 0;
+}
+
+.user-cookie h2 {
+  font-size: 18px;
+}
+
+.user-cookie input[type="text"] {
+  padding: 6px;
+  box-sizing: border-box;
+  width: 200px;
+}
+.user-location{
+  bottom: 20px;
+  right: 20px;
+}
+.user-location button{
+  border-radius: 10px;
+  padding: 10px;
+  background-color:rgb(15, 200, 15); 
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
